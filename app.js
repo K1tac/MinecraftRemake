@@ -5,6 +5,7 @@ const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerH
 const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
+renderer.setClearColor(0x87CEEB); // Add background color (light blue for sky effect)
 
 const playerGeometry = new THREE.BoxGeometry(1, 2, 1);
 const playerMaterial = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
@@ -20,13 +21,14 @@ function createBlock(x, y, z) {
     scene.add(block);
 }
 
+// Create a 5x5 grid of blocks, positioned on the ground
 for (let x = -2; x < 3; x++) {
     for (let z = -2; z < 3; z++) {
         createBlock(x, 0, z);
     }
 }
 
-camera.position.z = 5;
+camera.position.set(0, 2, 5); // Position camera slightly above the ground
 
 let moveForward = false;
 let moveBackward = false;
