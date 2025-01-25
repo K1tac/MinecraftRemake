@@ -1,6 +1,6 @@
 ## Known Issues ⚠️
 - The block placement feature is still under development.
-- Terrain generation could be optimized for better performance.
+- The screen is only blue. I am actively working on this issue.
 
 ## Roadmap 📅
 - Add multiplayer support.
