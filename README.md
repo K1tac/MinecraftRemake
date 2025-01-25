@@ -44,7 +44,7 @@ To contact me, use Discord. My username is **k1t4c**. Feel free to reach out if 
 
 ---
 
-**Minecraft REMAKE** is coded and developed by a sole developer, that's me! Feedback is highly appreciated, so any bugs you encounter, please report to me. But, before reporting bugs to me, please check `OtherInformation.md` to make sure you aren't reporting an already known bug.
+**Minecraft REMAKE** is coded and developed by a sole developer, that's me! Feedback is highly appreciated, so any bugs you encounter, please report to me. But, before reporting bugs to me, please check [OtherInformation folder](https://github.com/K1tac/MinecraftRemake/blob/main/OtherInformation.md) to make sure you aren't reporting an already known bug.
 
 With that,
 happy exploring! 🌍🎮
