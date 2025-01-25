@@ -6,6 +6,9 @@ const renderer = new THREE.WebGLRenderer();
 renderer.setSize(window.innerWidth, window.innerHeight);
 document.body.appendChild(renderer.domElement);
 renderer.setClearColor(0x87CEEB); // Add background color (light blue for sky effect)
+const crosshair = document.createElement('div');
+crosshair.classList.add('crosshair');
+document.body.appendChild(crosshair);
 
 const playerGeometry = new THREE.BoxGeometry(1, 2, 1);
 const playerMaterial = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
@@ -72,11 +75,13 @@ document.addEventListener('mousemove', (event) => {
 function animate() {
     requestAnimationFrame(animate);
 
+    // Player movement
     if (moveForward) player.position.z -= 0.1;
     if (moveBackward) player.position.z += 0.1;
     if (moveLeft) player.position.x -= 0.1;
     if (moveRight) player.position.x += 0.1;
 
+    // Jump logic
     if (jump && !isJumping) {
         isJumping = true;
         jumpVelocity = 0.1;
@@ -91,6 +96,11 @@ function animate() {
             isJumping = false;
         }
     }
+
+    // Update camera position to follow the player
+    camera.position.x = player.position.x;
+    camera.position.y = player.position.y + 1; // Slightly above the player
+    camera.position.z = player.position.z + 5; // Keep some distance
 
     camera.rotation.x = pitch;
     camera.rotation.y = yaw;
