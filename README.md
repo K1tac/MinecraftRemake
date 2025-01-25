@@ -1,65 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to My 3D Minecraft-like Environment</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f9;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+# 3D Minecraft-like Environment with Three.js
 
-        .container {
-            text-align: center;
-            max-width: 800px;
-        }
+Welcome to my 3D Minecraft-like environment built with **Three.js**! This project is a simple 3D world where you can explore blocks, jump around, and interact with the environment. The goal is to create a Minecraft-inspired game using web technologies.
 
-        h1 {
-            font-size: 3em;
-            color: #333;
-        }
+## Features
+- **Voxel-based terrain**: Simple cube-based world.
+- **Player movement**: Walk, look around, and jump.
+- **Basic physics**: Gravity and collision detection.
+- **Crosshair**: A central crosshair for aiming and focus.
+- **Block Placement / Block Destruction**: You can destroy or place blocks like the real Minecraft.
+- **Terrain Generation**: As you walk around the world, terrain is generated automatically.
 
-        p {
-            font-size: 1.2em;
-            color: #666;
-        }
-
-        .btn {
-            padding: 15px 30px;
-            font-size: 1.2em;
-            color: white;
-            background-color: #4CAF50;
-            text-decoration: none;
-            border-radius: 5px;
-            margin-top: 20px;
-            display: inline-block;
-        }
-
-        .btn:hover {
-            background-color: #45a049;
-        }
-
-        .image-container {
-            margin-top: 40px;
-        }
-
-        .image-container img {
-            max-width: 100%;
-            border-radius: 10px;
-        }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Welcome to My 3D Minecraft-like Environment!</h1>
-        <p>This project is a 3D world built with Three.js, inspired by Minecraft. You can explore a world of blocks, jump around, and interact with the environment. Follow along as we continue to improve and add more features!</p>
-    </div>
-</body>
-</html>
+## Contact
+```To contact me, use discord. My username is k1t4c.```
