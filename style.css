@@ -3,23 +3,29 @@
 body {
     margin: 0;
     overflow: hidden;
-    background-color: #87CEEB;
+    background-color: #87CEEB; /* Light blue for the sky */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 #game-container {
     width: 100vw;
     height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
-#crosshair {
+/* Crosshair style */
+.crosshair {
     position: absolute;
     top: 50%;
     left: 50%;
     width: 20px;
     height: 20px;
-    background-color: transparent;
-    border-top: 2px solid white;
-    border-left: 2px solid white;
+    background-color: black;
+    border-radius: 50%;
     transform: translate(-50%, -50%);
-    pointer-events: none; /* Ensures the crosshair does not interfere with mouse interaction */
 }
