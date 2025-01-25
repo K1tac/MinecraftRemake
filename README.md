@@ -40,7 +40,7 @@ Follow these steps to get started with **Minecraft REMAKE**:
 To contact me, use Discord. My username is **k1t4c**. Feel free to reach out if you have questions, feedback, or want to contribute!
 
 ## VERSION
-0.1.0 - Alpha
+0.1.5 - Alpha
 
 ---
 
