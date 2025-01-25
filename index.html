@@ -1,35 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>3D Minecraft Remake</title>
-    <style>
-        body {
-            margin: 0;
-            overflow: hidden;
-            background-color: #87CEEB; /* Light blue sky */
-        }
-        canvas {
-            display: block;
-        }
-        #crosshair {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            width: 20px;
-            height: 20px;
-            background-color: transparent;
-            border-top: 2px solid white;
-            border-left: 2px solid white;
-            transform: translate(-50%, -50%);
-            pointer-events: none; /* Ensures the crosshair does not interfere with mouse interaction */
-        }
-    </style>
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <div id="crosshair"></div> <!-- The crosshair -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="app.js"></script>
-</body>
-</html>
