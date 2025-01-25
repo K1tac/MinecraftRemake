@@ -10,12 +10,38 @@ Welcome to **Minecraft REMAKE** built with **Three.js**! This project is a simpl
 - **Block Placement / Block Destruction**: Place and destroy blocks just like in the original Minecraft!
 - **Terrain Generation**: The world is generated dynamically as you explore. Infinite possibilities await!
 
+## How to Install 🚀
+
+Follow these steps to get started with **Minecraft REMAKE**:
+
+1. **Clone the Repository**:
+    - Click the "Code" button on the GitHub page, and copy the URL.
+    - Use the following command in your terminal to clone the repository:
+    ```bash
+    git clone https://github.com/K1tac/MinecraftRemake.git
+    ```
+
+2. **Navigate to the Project Folder**:
+    - After cloning, navigate into the project folder:
+    ```bash
+    cd MinecraftRemake
+    ```
+
+3. **Open `index.html`**:
+    - Open the `index.html` file in your browser. You should now see the game running in your browser window.
+
+    *(Alternatively, you can use any local server to serve the files, especially if you’re using more advanced features.)*
+
+4. **Enjoy the Game**: 
+    - Explore the world, jump around, and interact with blocks!
+
 ## Contact 📞
 
 To contact me, use Discord. My username is **k1t4c**. Feel free to reach out if you have questions, feedback, or want to contribute!
 
 ## VERSION
 0.1.0 - Alpha
+
 ---
 
 Happy exploring! 🌍🎮
