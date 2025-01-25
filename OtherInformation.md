@@ -1,6 +1,7 @@
 ## Known Issues ⚠️
 - The block placement feature is still under development.
-- The screen is only blue. I am actively working on this issue.
+- Weird Movement Mechanic
+- Nonexistent terrain generation
 
 ## Goals 🏁
 - Add multiplayer support.
