@@ -1,6 +1,6 @@
-# 3D Minecraft-like Environment with Three.js
+# Minecraft REMAKE
 
-Welcome to my 3D Minecraft-like environment built with **Three.js**! This project is a simple 3D world where you can explore blocks, jump around, and interact with the environment. The goal is to create a Minecraft-inspired game using web technologies.
+Welcome to Minecraft REMAKE built with **Three.js**! This project is a simple 3D world where you can explore blocks, jump around, and interact with the environment. The goal is to create a Minecraft-inspired game using web technologies.
 
 ## Features
 - **Voxel-based terrain**: Simple cube-based world.
