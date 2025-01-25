@@ -6,3 +6,6 @@
 - Add multiplayer support.
 - Implement crafting system.
 - Create more block types for varied terrain.
+- Items, Hunger, and Health
+- Mobs / Entities
+- Don't get sued by Mojang
