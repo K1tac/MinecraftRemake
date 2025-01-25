@@ -22,7 +22,7 @@ A: Yes! Minecraft Remake is an open-source project. Feel free to fork the reposi
 A: Right now, the focus is on single-player gameplay and building a solid foundation for the world. Multiplayer is a feature I'd love to explore in the future, but it's not on the immediate roadmap. Stay tuned for updates!
 
 **Q: Can I contribute to the project?**  
-A: Absolutely! Contributions are welcome. Whether it's bug fixes, new features, or improvements to the codebase, feel free to create a pull request. Just make sure to follow the contribution guidelines in the repository.
+A: Absolutely! Contributions are welcome. Whether it's bug fixes, new features, or improvements to the codebase, feel free to create a pull request. Just make sure to follow the [contribution guidelines](https://github.com/K1tac/MinecraftRemake/ContributionGuidelines.md) in the repository.
 
 **Q: What platforms will Minecraft Remake run on?**  
 A: Minecraft Remake is a web-based game built with Three.js, meaning it can be played on any modern web browser. It should work well on desktop and mobile devices, though performance may vary based on hardware capabilities.
