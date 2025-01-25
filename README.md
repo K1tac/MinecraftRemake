@@ -1,6 +1,6 @@
 # Minecraft REMAKE 🌍
 
-Welcome to **Minecraft REMAKE** built with **Three.js**! This project is a simple 3D world where you can explore blocks, jump around, and interact with the environment. The goal is to create a Minecraft-inspired game using web technologies. Get ready to dive into the world of blocks and creativity!
+Welcome to **Minecraft REMAKE** built with **Three.js**! This project is a simple 3D world where you can explore blocks, jump around, and interact with the environment. The goal is to create a Minecraft-inspired game using web technologies. 
 
 ## Features ✨
 - **Voxel-based terrain**: Simple cube-based world to explore and modify.
@@ -14,6 +14,8 @@ Welcome to **Minecraft REMAKE** built with **Three.js**! This project is a simpl
 
 To contact me, use Discord. My username is **k1t4c**. Feel free to reach out if you have questions, feedback, or want to contribute!
 
+## VERSION
+0.1.0 - Alpha
 ---
 
 Happy exploring! 🌍🎮
