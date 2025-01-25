@@ -9,7 +9,7 @@
 - Create more block types for varied terrain.
 - Items, Hunger, and Health
 - Mobs / Entities
-- Don't get sued by Mojang
+- Don't get sued by Mojang or Microsoft
 
 ## FAQ ❓❔
 
